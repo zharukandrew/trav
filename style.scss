@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .conteiner{
     width:1200px;
     margin: 0;
@@ -19,6 +20,14 @@
     &__list{
         display: flex;
         gap:2rem;
+    }
+    &__list a{
+        text-decoration: none;
+        color:black;
+    }
+    &__item a{
+        text-decoration: none;
+        color: black;
     }
     &__button {
         background-color: orange;
