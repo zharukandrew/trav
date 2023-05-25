@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width:1200px;
+    margin: 0;
+}
+.header{
+    width: 100%;
+     display: flex;
+    justify-content: space-around;
+    margin-top: 1.8rem;
+    &__item{
+        display: flex;
+        gap:2rem;
+    }
+    &__list{
+        display: flex;
+        gap:2rem;
+    }
+    &__button {
+        background-color: orange;
+        width:8rem;
+        height: 2rem;
+        background: #FA7436;
+          box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.24);
+           border-radius: 5px;
+           color:white;
+    }
+}
