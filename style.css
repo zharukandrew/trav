@@ -54,15 +54,18 @@ body {
 }
 
 .journey {
+  display: flex;
   padding-left: 5%;
-  padding-right: 5%;
+  padding-right: 10%;
+  margin-top: 10%;
   width: 100%;
 }
 .journey__block {
   margin-top: 3.18rem;
+  width: 100%;
 }
 .journey__title {
-  width: 39%;
+  width: 40%;
   font-size: 3rem;
 }
 .journey__page {
@@ -71,4 +74,14 @@ body {
 }
 .journey__buttom {
   margin-top: 3.81rem;
+  width: 17%;
+  height: 6.9%;
+  border: 1px solid #FA7436;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding-top: 9.52px;
+}
+.journey__block2 {
+  width: 2%;
 }/*# sourceMappingURL=style.css.map */
