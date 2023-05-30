@@ -8,7 +8,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Volkhov', serif;
 }
-
+li{
+    list-style-type: none;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap');
 .orange{
     color: #FA7436;
@@ -81,6 +83,35 @@ body{
         }
       }
       .location{
-        width:880px
-       
+       width: 860px;
+       display: flex;
+       justify-content: center;
+        &__block{
+            gap: 2rem;
+          width: 100%;
+          display: flex;
+          background: #FFFFFF;
+         box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+         border-radius: 10px;
+        justify-content: center;
+        }
+        &__item{
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+        }
+        &__button{
+            width:15%;
+           color:white;
+            background: #FA7436;
+            box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.16);
+            border-radius: 5px;
+        }
+        &__item-page{
+            color: #666666;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            margin-top: 4px;
+        }
       }
