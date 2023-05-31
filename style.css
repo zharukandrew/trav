@@ -62,15 +62,15 @@ li {
 }
 .journey__block {
   margin-top: 3.18rem;
-  width: 100%;
+  flex: 0 0 50%;
 }
 .journey__title {
-  width: 40%;
+  max-width: 500px;
   font-size: 3rem;
 }
 .journey__page {
   margin-top: 1.9rem;
-  width: 36%;
+  width: 70%;
 }
 .journey__buttom {
   margin-top: 3.81rem;
@@ -83,7 +83,7 @@ li {
   padding-top: 9.52px;
 }
 .journey__block2 {
-  width: 15%;
+  flex: 0 0 50%;
 }
 
 .location {
