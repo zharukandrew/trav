@@ -62,7 +62,7 @@ li{
             flex:0 0 50%
         }
         &__title{
-            max-width: 500px;;
+            max-width: 500px;
             font-size: 3rem;
         }
         &__page{
@@ -128,8 +128,40 @@ li{
         align-items: center;
     }
     .journey{
+        &__block{
+            display: flex;
+            margin-left: 40px;
+            gap:100px;
+        }
         &__block2{
             display: none;
+        }
+         &__title{
+            max-width: 70px;
+            font-size: 1.5rem;
+        }
+        &__buttom{
+           display: none;
+        }
+    }
+    .location{
+        width:350px;
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+        &__block{
+            gap: 2rem;
+          width: 100%;
+          display: flex;
+          background: #FFFFFF;
+         box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+         border-radius: 10px;
+        justify-content: center;
+        margin-left: 100px;
+        }
+        &__button{
+            width:45%;
+            height:70px;
         }
     }
 }
