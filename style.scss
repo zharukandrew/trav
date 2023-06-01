@@ -1,3 +1,5 @@
+//main
+
 *{
     margin: 0;
     padding: 0;
@@ -65,7 +67,7 @@ li{
         }
         &__page{
             margin-top: 1.9rem;
-            width:70%;
+            max-width:70%;
 
         }
         &__buttom{
@@ -115,4 +117,19 @@ li{
             margin-top: 4px;
         }
       }
-@import"mobile.scss"
+
+
+//mobile
+@media(max-width:767px){
+    .header{
+        max-width: 100%;
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .journey{
+        &__block2{
+            display: none;
+        }
+    }
+}
