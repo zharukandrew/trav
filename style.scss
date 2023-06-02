@@ -121,6 +121,20 @@ li{
 
 //mobile
 @media(max-width:767px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Volkhov', serif;
+    }
+    li{
+        list-style-type: none;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap');
     .header{
         max-width: 100%;
          display: flex;
