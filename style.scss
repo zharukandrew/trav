@@ -185,6 +185,22 @@ li{
           
         }
          }
+         .exclusive{
+            width:100%;
+            &__lists{
+                text-align: center;
+            }
+            &__lists-title{
+                font-size: 48px;
+            }
+            &__lists-page{
+                font-size:16px;
+                color: #666666;
+                max-width: 25%;
+                display: inline-block;
+                margin-top: 1.5rem;
+            }
+         }
 
 //mobile
 @media(max-width:767px){

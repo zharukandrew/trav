@@ -177,6 +177,23 @@ li {
   padding-top: 2.5rem;
 }
 
+.exclusive {
+  width: 100%;
+}
+.exclusive__lists {
+  text-align: center;
+}
+.exclusive__lists-title {
+  font-size: 48px;
+}
+.exclusive__lists-page {
+  font-size: 16px;
+  color: #666666;
+  max-width: 25%;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
 @media (max-width: 767px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap");
   .header {
