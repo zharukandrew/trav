@@ -13,6 +13,7 @@ body{
 li{
     list-style-type: none;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap');
 .orange{
     color: #FA7436;
@@ -199,6 +200,29 @@ li{
                 max-width: 25%;
                 display: inline-block;
                 margin-top: 1.5rem;
+            }
+            &__list{
+                display: flex;
+                gap:1.8rem;
+                margin-left: 107px;
+            }
+            &__item{
+                max-width: 279px;
+                background: #FEFCFB;
+                box-shadow: 0px 16px 80px rgba(254, 147, 94, 0.2);
+                border-radius: 10px;
+            }
+            &__block{
+                display: flex;
+                gap:6.68rem;
+            }
+            &__blocks{
+                display: flex;
+                gap:4rem;
+            }
+            &__blocksl{
+                display: flex;
+                gap:1rem;
             }
          }
 
