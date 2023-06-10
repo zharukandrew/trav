@@ -186,6 +186,13 @@ li{
           
         }
          }
+         .exclisive__blocks-list p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #666666;
+         }
          .exclusive{
             width:100%;
             &__lists{
@@ -205,6 +212,8 @@ li{
                 display: flex;
                 gap:1.8rem;
                 margin-left: 107px;
+                margin-top: 4rem;
+               margin-bottom: 4rem;
             }
             &__item{
                 max-width: 279px;
@@ -214,18 +223,78 @@ li{
             }
             &__block{
                 display: flex;
-                gap:6.68rem;
+                gap:7rem;
+                margin-top: 2rem;
+                margin-left: 0.5rem;
+                
+            }
+            &__block h4{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 26px;
+                color: #222222;
+            }
+            
+            &__blocksl-page{
+                color: #666666;
+                text-decoration: line-through;
+            }
+            &__block-firenze{
+                padding-left: 0.5rem;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #666666;
+            }
+            &__block-madrid{
+                padding-left: 1.5rem;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #666666;
+            }
+            &__block-paris{
+                padding-left: 1.5rem;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #666666;
+            }
+            &__block-london{
+                padding-right:1px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #666666;
             }
             &__blocks{
                 display: flex;
-                gap:4rem;
+                gap: 5rem;
+                margin-top: 2rem;
+                margin-left: 1rem;
             }
             &__blocksl{
                 display: flex;
                 gap:1rem;
             }
+            &__blocksl-text{
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FA7436;
+                border-radius: 5px;
+                border:2px solid #ffc0cb;
+                background-color:#ffc0cb;
+            }
+            &__button{
+                display: flex;
+               justify-content: center;
+               gap:1.8rem;
+               margin-bottom: 4rem;
+            }
          }
-
+         
 //mobile
 @media(max-width:767px){
     
