@@ -285,6 +285,10 @@ li {
   margin-bottom: 4rem;
 }
 
+.plan {
+  width: 100%;
+}
+
 @media (max-width: 767px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap");
   .header {
@@ -355,5 +359,9 @@ li {
   }
   .exclusive__lists-title {
     font-size: 18px;
+  }
+  .exclusive__list {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
