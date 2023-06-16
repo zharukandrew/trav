@@ -294,11 +294,61 @@ li{
                margin-bottom: 4rem;
             }
          }
-         .plan{
-            width:100%
-
-         }
+         .plan__lists{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
          
+         .plan {
+            &__lists-title{
+                font-size: 48px;
+                line-height: 54px;
+            }
+            &__lists-page{
+                max-width: 35%;
+                text-align: center;
+                color: #666666;
+                padding-top: 1rem;
+                font-size: 18px;
+                line-height: 32px;
+            }
+            &__button{
+                display: flex;
+                justify-content: flex-end;
+               gap:1.8rem;
+               margin-bottom: 9.5rem;
+            }
+            
+           
+            width:100%;
+           margin-top:7.8rem;
+         }
+         .strana{
+            &__blocks img{
+                width:469px;
+                
+            }
+            &__wrapper{
+                display: flex;
+            }
+            &__block-1{
+                margin-top: -100px;
+                display: flex;
+                margin-left: 4.5rem;
+                margin-right: 15px;
+                gap:4rem;
+            }
+            &__block-2{
+                margin-top: 10px;
+                display: flex;
+                margin-left: 4.5rem;
+                margin-right: 15px;
+                gap:4rem;
+            }
+           
+         }
 //mobile
 @media(max-width:767px){
     
