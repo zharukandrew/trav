@@ -325,29 +325,15 @@ li{
             width:100%;
            margin-top:7.8rem;
          }
-         .strana{
-            &__blocks img{
-                width:469px;
-                
-            }
-            &__wrapper{
+        
+         .strana
+        {
+            &__lists{
+                margin-left: 12.5rem;
                 display: flex;
-            }
-            &__block-1{
-                margin-top: -100px;
-                display: flex;
-                margin-left: 4.5rem;
-                margin-right: 15px;
-                gap:4rem;
-            }
-            &__block-2{
-                margin-top: 10px;
-                display: flex;
-                margin-left: 4.5rem;
-                margin-right: 15px;
-                gap:4rem;
-            }
-           
+                gap:30px;
+             }
+             width:100%
          }
 //mobile
 @media(max-width:767px){
