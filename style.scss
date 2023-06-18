@@ -333,6 +333,39 @@ li{
                 display: flex;
                 gap:30px;
              }
+            &__item-title{
+                display:flex;
+                gap:6rem;
+            }
+            &__item-title h1{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 32px;
+                color: #222222;
+                padding-left: 15px;
+}
+            &__item-title p{
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FA7436;
+            }
+            &__item-page{
+                display: flex;
+                gap:150px;
+            }
+            &__item-page h1{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #666666;
+            }
+            &__item-page p{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #666666;
+            }
              width:100%
          }
 //mobile

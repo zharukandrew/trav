@@ -322,6 +322,39 @@ li {
   display: flex;
   gap: 30px;
 }
+.strana__item-title {
+  display: flex;
+  gap: 6rem;
+}
+.strana__item-title h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #222222;
+  padding-left: 15px;
+}
+.strana__item-title p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FA7436;
+}
+.strana__item-page {
+  display: flex;
+  gap: 150px;
+}
+.strana__item-page h1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.strana__item-page p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
 
 @media (max-width: 767px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap");
