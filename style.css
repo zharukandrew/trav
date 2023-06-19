@@ -321,10 +321,18 @@ li {
   margin-left: 12.5rem;
   display: flex;
   gap: 30px;
+  margin-bottom: 7rem;
+}
+.strana__items {
+  width: 28%;
+  height: 35%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 .strana__item-title {
   display: flex;
   gap: 6rem;
+  margin-top: 24px;
 }
 .strana__item-title h1 {
   font-weight: 500;
@@ -342,6 +350,8 @@ li {
 .strana__item-page {
   display: flex;
   gap: 150px;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 .strana__item-page h1 {
   font-weight: 500;
