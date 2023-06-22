@@ -1,203 +1,159 @@
+/*Базовые задания джава скрипт */
 
-/* Найти последнее значение массивов function lam(a){
-   return(a[a.length-1])
-}
-let arr=lam([1,3,6,36,38]);
-console.log(arr);*/
-/*2 напишите функцию иф элси
-let age=prompt(('Введ возраст'));
-function checkAge(age) {
-   if (age > 18) {
-     return true;
-   } else {
-     return confirm('Родители разрешили?');
-   }
- }
-
-
-console.log(checkAge(age))
-2 способ
-let age=prompt(('Введ возраст'));
-function checkAge(age) {
-   return age>18?('true'):confirm ('Родители разрешили?');
-}
-console.log(checkAge(age))
-3 способ
-let age=prompt(('Введ возраст'));
-function checkAge(age) {
-   return (age > 18) || confirm('Родители разрешили?');
- }
- console.log(checkAge(age))
- 4 cпособ
- let age=prompt('Введ возраст');
-function checkAge(age){
-   return(age>18)&&confirm('Родители разрешили?');
-}
-console.log(checkAge(age))
-не оптимальный
-5 способ
-let age=prompt(('Введ возраст'));
-let checkAge=function(age){
-   if (age>18){
-   return true;
-   } else {
-     return confirm('Родители разрешили?');
-   }
-}
-console.log(checkAge(age));
-6 способ
-let age=prompt(('Введ возраст'));
-let checkAge=(age)=>{
-   if (age>18){
-   return true;
-   } else {
-     return confirm('Родители разрешили?');
-   }
-}
-console.log(checkAge(age));
-*/
-/*3Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b.
-
-Пример вызовов:
-
-min(2, 5) == 2
-min(3, -1) == -1
-min(1, 1) == 1
-решение
-let a=prompt('Напишите функцию , которая возвращает меньшее из чисел');
-let b=prompt('Напишите функцию , которая возвращает меньшее из чисел');
+/*1 Написать функцию, которая принимает два числа и возращает результат их умножения
+1 способ декларейшон
 function fun(a,b){
-  if(a<b){
-   return(a)
-  }else{
-   return (b)
-  }
+   return a*b;
 }
-console.log(fun(a,b))
-2 cпособ
-let a=prompt('Напишите функцию , которая возвращает меньшее из чисел');
-let b=prompt('Напишите функцию , которая возвращает меньшее из чисел');
-function fun(a,b){
-   return(a<b)?(a):(b)
+console.log(fun(20,40))
+2 способ экспрешион
+let fun=function (a,b){
+   return a*b;
 }
-console.log(fun(a,b))
+console.log(fun(20,40))
+3 способ стрелочная
+let fun= (a,b)=> a*b;
+
+console.log(fun(20,40))
 */
-/*
-let a=prompt('Напишите число');
-let b=prompt('Напишите степень');
-function pow(a,b){
-   return a**b
+/*2 * Написать функцию, которой передаем, имя, фамилия и возраст, и получаем строку "Привет Иван Петров с возрастом 17 лет" (только здесь данные, которые были переданы в функцию)
+let a=prompt('Привет Иван Петров с возрастом 17 лет');
+function map(a){
+   if(a>=17){
+      return true ;
+   }else{
+      return false ;
+   }
 }
-console.log(pow(a,b))
-2 способ
-экспрессион
-let a=prompt('Напишите число');
-let b=prompt('Напишите степень');
-let pow=function (a,b){
-   return a**b
+console.log(map(a));
+2 способ стрелочная функция и тернарный оператор
+let a=prompt('Привет Иван Петров с возрастом 17 лет');
+map=a=> a >=17 ? true : false
+
+console.log(map(a));
+3 экспрешон
+
+let a=prompt('Привет Иван Петров с возрастом 17 лет');
+let map= function(a){
+   return a >=17 ? true : false
 }
-console.log(pow(a,b))
-3 способ стрелочная функция
-let a=prompt('Напишите число');
-let b=prompt('Напишите степень');
-let pow=(a,b)=>{
-   return a**b
-}
-console.log(pow(a,b))
+console.log(a);
 */
-/*заменить на стрелочную
-function ask(question, yes, no) {
-   if (confirm(question)) yes()
-   else no();
- }
- 
- ask(
-   "Вы согласны?",
-   function() { alert("Вы согласились."); },
-   function() { alert("Вы отменили выполнение."); }
- );
- ответ
- function ask(question, yes, no) {
-   if (confirm(question)) yes()
-   else no();
- }
- 
- ask(
-   "Вы согласны?",
-   () =>{ alert("Вы согласились."); },
-   () => { alert("Вы отменили выполнение."); }
- );
+/*3 Написать функцию, которая принимает пол человека ('M','F') в виде строки, результат функции возвращает строку "Ваш пол мужской" (или женский) или же "Ваш пол не опеределен" 
+let a=prompt('Назовите Ваш пол');
+let fun= (a)=>a==='M'?"Ваш пол мужской":a==='F'?"Ваш пол женский":"Ваш пол не опеределен";
+console.log(fun(a))
+*/
+/* 4 Сделайте функцию, которая принимает параметром число от 1 до 7, а возвращает день недели на русском языке. 
+
+Решение
+let a=prompt('Назовите день недели');
+function week(a){
+   if(a==1){
+      return 'Понедельник';
+   }else if(a==2){
+      return 'Вторник';
+   }else if(a==3){
+      return 'Среда';
+   }else if(a==4){
+      return 'Четверг';
+   }else if(a==5){
+      return 'Пятница';
+   }else if(a==6){
+      return 'Суббота'
+   }else if(a==7){
+      return ('Воскресенье')
+   }else{
+      return ('Неизвестный день недели')
+   }
+}
+alert(week(a))
+2 способ экспрешионс а 3 не эффективный
+let a=prompt('Назовите день недели');
+ week=function(a){
+   if(a==1){
+      return 'Понедельник';
+   }else if(a==2){
+      return 'Вторник';
+   }else if(a==3){
+      return 'Среда';
+   }else if(a==4){
+      return 'Четверг';
+   }else if(a==5){
+      return 'Пятница';
+   }else if(a==6){
+      return 'Суббота'
+   }else if(a==7){
+      return ('Воскресенье')
+   }else{
+      return ('Неизвестный день недели')
+   }
+}
+alert(week(a))
+*/
+/*5 задание
+
+let map="Методы строк на Tproger";
+function func(map){
+   return map;
+}
+console.log(func(map.slice(0,6)))
+*/
+/*6 задание
+Написать функцию, которой передаем имя, и она возраващает приветствие в зависимости от времени суток (Доброе утро\день\вечер\ночи Иван)
+let name=prompt('Введите имя')
+let now = new Date();
+
+function  fin(name ,now){
+   if(8>now<=12){
+      return(`Доброе утро ${name}`)
+   }else if(12>now<=18){
+      return(`Добрый день ${name}`)
+   }else if(19>now<=21){
+      return(`Добрый вечер ${name}`)
+   }else{
+      return(`Добрый ночи ${name}`)
+   }
+}
+console.log(fin(name ,now))
  */
- /*let age=prompt(('Введ возраст'));
-function checkAge(age) {
-   if (age > 18) {
-     return true;
-   } else {
-     return confirm('Родители разрешили?');
-   }
- }
-
-
-console.log(checkAge(age))*/
-/*МАССИВЫ
-
-*/
-/*6 задание:Дан массив: 
-[1, 5, 4, 10, 0, 3]
-.
-Найдите позицию числа 4 в этом массиве.
-1 cпособ
-let arr = [1, 5, 4, 10, 0, 3]; 
-let mar=(arr)=>{
-   return arr
-}
-console.log(mar(arr.indexOf(4)))
-2 способ
-let arr = [1, 5, 4, 10, 0, 3];
-function mar(arr){
-   return arr
-}
-console.log(mar(arr.indexOf(4)))
-*/
 /*7 задание
-let arr = [1, 3, 5, 10, 20];
-function str(arr){
-   return arr
+Вывести числа от 1 до 100 в столбец. К каждой цифре подписать состояние возраста (1-17 ребенок, 18-30 - молодой, 30-55 - зрелый, от 55 - старый).
+ Например. 33 - зрелый
+ let age=prompt('Введите возраст');
+fun = function (age){
+   if(age<=17){
+      return(`${age} ребенок`)
+   }else if(age<=30){
+      return(`${age} молодой`)
+   }else if(age<=55){
+      return(`${age} зрелый`)
+   }else {
+      return(`${age} старый`)
+   }
 }
-console.log(str(arr.join(' ')))
-
-*/
-
-/*8задание
-Дан массив: 
-[9, 8, 7, 'a', 6, 5]
-.
-С помощью метода 
-sort
- отсортируйте массив и удалите букву 'a' из данного массива. В результате работы программы вывести массив, состоящий из цифр.
-1 cпособ стрелочная
-let arr = [9, 8, 7, 'a', 6, 5];
-let sum =(arr)=>{
-   return arr
-}
-
-arr.sort().pop();
-console.log(sum(arr))
-экспрессион
+alert(fun(age))
 2 способ
-let arr = [9, 8, 7, 'a', 6, 5];
-function func(arr){
-   return arr
-}
-arr.sort().pop();
-console.log(func(arr))
-3 cпособ
-let arr = [9, 8, 7, 'a', 6, 5];
-let func=function(arr){
-   return arr;
-}
 
-arr.sort().pop();
-console.log(func(arr));
+let age=prompt('Введите возраст');
+fun =(age)=>(age<=17)?(`${age} ребенок`):(age<=30)?(`${age} молодой`):(age<=55)?(`${age} зрелый`):(`${age} старый`);
+alert(fun(age))
+ */
+/*8 задание
+let name=prompt('Введите имя');
+let age=prompt('Введите возраст');
+function fun(name ,age){
+   if(age<=17){
+      return(`${name} имеет возраст ${age},он ребенок`)
+   }else if(age<=30){
+      return(`${name} имеет возраст ${age},он молодой`)
+   }else if(age<=55){
+      return(`${name} имеет возраст ${age},он зрелый`)
+   }else {
+      return(`${name} имеет возраст ${age},он старый`)
+   }
+}
+alert(fun(name ,age))
 
 */
+

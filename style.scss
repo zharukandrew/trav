@@ -339,7 +339,7 @@ li{
                 height:  35%;
                 border: 1px solid    #00000033;
                 border-radius: 20px;
-
+                color:none;
 
              }
             &__item-title{
@@ -464,5 +464,15 @@ li{
             display: flex;
            flex-direction: column; 
        }
+    }
+    .plan{
+        &__lists-title{
+            font-size: 18px;
+            line-height: 32px;
+        }
+        &__lists-page{
+            font-size: 9px;
+            line-height: 32px;
+        }
     }
 }

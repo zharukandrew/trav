@@ -328,6 +328,7 @@ li {
   height: 35%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  color: none;
 }
 .strana__item-title {
   display: flex;
@@ -440,5 +441,13 @@ li {
   .exclusive__list {
     display: flex;
     flex-direction: column;
+  }
+  .plan__lists-title {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .plan__lists-page {
+    font-size: 9px;
+    line-height: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
