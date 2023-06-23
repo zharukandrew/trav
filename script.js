@@ -156,4 +156,46 @@ function fun(name ,age){
 alert(fun(name ,age))
 
 */
+/*Massiv */
+/* 1 Сделай функцию, которая принимает массив любых целых чисел, которая возращает истинну, если все элементы четные, если бы хотя бы один элемент не четный, то false.
 
+let arr = [1, 2, 3, 4, 5];
+
+arr.forEach(function(elem) {
+	console.log(elem%2==0&&elem%2!==0);
+});
+
+*/
+
+/*2Сделай функцию, которая принимает массив любых целых чисел, которая возращает истинну, если хотя бы один элемент нечетный, если все четные, то false. 
+let arr = [2, 2, 2, 4, 2];
+
+arr.forEach(function(elem) {
+	console.log(elem%2!==0&&elem%2==0);
+});
+*/
+
+
+/*3*Сделай функцию, которая принимает массив любых целых чисел, которая возращает новый массив, где все элементы кратны пяти. ([1,2,5,12,15,21] вернет [5,15])
+1 способ
+let arr = [1,2,5,12,15,21]; 
+let flt = arr.filter( function( el ){ return (el % 5)==0 } )
+alert( flt ); // 5, 15
+2 способ
+let arr = [1,2,5,12,15,21];
+let flt = arr.filter( ( el )=>{ return (el % 5)==0 } )
+alert( flt );
+3 способ
+let arr = [1,2,5,12,15,21];
+let flt = arr.filter( ( el )=> (el % 5)==0 )
+alert( flt );
+4 способ
+let arr = [1,2,5,12,15,21]; 
+let res = arr.filter(elem => elem %5==0);
+
+console.log(res);
+5 способ
+
+let arr = [1,2,5,12,15,21]; 
+console.log(arr.filter(elem => elem %5==0));
+*/

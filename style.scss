@@ -475,4 +475,13 @@ li{
             line-height: 32px;
         }
     }
+    .strana{
+        &__lists{
+            display: flex;
+            flex-direction: column;
+        }
+        &__items{
+            width: 350px;
+        }
+    }
 }

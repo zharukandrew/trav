@@ -450,4 +450,11 @@ li {
     font-size: 9px;
     line-height: 32px;
   }
+  .strana__lists {
+    display: flex;
+    flex-direction: column;
+  }
+  .strana__items {
+    width: 350px;
+  }
 }/*# sourceMappingURL=style.css.map */
