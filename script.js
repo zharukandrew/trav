@@ -22,3 +22,13 @@ return result.split();
 console.log(changeRegister(str)); // [кАжДыЙ оХоТнИк]
 */
 
+/*3 задание
+let arr =[1,2,3,4,5,6,7,8,9] ;
+let arent =(arr ,n )=>arr.splice(0, 3 ,n);
+console.log(arent(arr,3));
+*/
+/*4* задание
+let numbers=([1,1,1], [2,2,2]) ;
+let sum = 3;
+numbers.map((item) => sum += item);
+console.log(sum); */
