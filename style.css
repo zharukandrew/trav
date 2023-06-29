@@ -367,6 +367,30 @@ li {
   color: #666666;
 }
 
+.servic {
+  width: 100%;
+}
+.servic__list-title {
+  color: #222;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 54px;
+  max-width: 30%;
+  padding-top: 1rem;
+}
+.servic__list-page {
+  width: 30%;
+  font-size: 16px;
+  line-height: 32px;
+  color: #666666;
+  padding-top: 1rem;
+}
+.servic__button {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 @media (max-width: 767px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap");
   .header {
