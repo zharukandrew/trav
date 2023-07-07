@@ -1,40 +1,15 @@
-/*1 задача что не так и как правильно
-function makeUser() {
-  return {
-    name: "John",
-    ref: this
-  };
+/*1 задача
+Ваша задача, используя методы объекта Date, вывести на экран
+время в формате: час:минута:секунда (пример: 14:23:11)
+
+При этом, если секунды и минуты попадают в интервал от 0 до 10, они должны выводиться с нулем впереди.
+
+Т.е. вместо 18:7:3 у Вас должно выводиться 18:07:03.
+let date = new Date();
+let str  = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
+function fun(str){
+  console.log(str)
 }
-
-let user = makeUser();
-
-alert( user.ref.name ); // Каким будет результат?
-решение:
-let user= {
-  name: "John",
-  ref: 'this',
-
-makeUser(){
-  alert(this.name)
-}
-};
-user.makeUser()
-*/
-/*let calculator = {
-  read() {
-    this.a = +prompt('a?', 0);
-    this.b = +prompt('b?', 0);
-  },
-  sum(){
-   return this.a+this.b;
-  },
-  mul(){
-    return this.a*this.b;
-   },
-}
-
-calculator.read();
-alert( calculator.sum() );
-alert( calculator.mul() );
+fun(str)
 */
 

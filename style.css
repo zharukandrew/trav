@@ -427,6 +427,42 @@ li {
   height: 250px;
 }
 
+.blog {
+  max-width: 100%;
+}
+.blog__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  max-width: 80%;
+}
+.blog__title h3 {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+}
+.blog__titles {
+  display: flex;
+  padding-left: 9rem;
+  padding-right: 12rem;
+  gap: 1.5rem;
+}
+.blog__titler h3 {
+  font-size: 1rem;
+  max-width: 78%;
+  padding-top: 1rem;
+}
+.blog__titler p {
+  color: #999;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 1rem;
+}
+
 @media (max-width: 767px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap");
   .header {
