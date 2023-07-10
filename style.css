@@ -581,4 +581,15 @@ li {
     width: 100%;
     height: 300px;
   }
+  .blog__title {
+    margin-left: 10rem;
+  }
+  .blog__titles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .blog__title h3 {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

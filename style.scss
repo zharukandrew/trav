@@ -617,4 +617,20 @@ li{
        
      
     }
+    .blog{
+        &__title{
+            margin-left: 10rem;
+        }
+        &__titles{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+    
+
+    .blog__title h3{
+        font-size: 10px;
+       
+    }
 }
