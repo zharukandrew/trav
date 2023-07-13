@@ -479,6 +479,34 @@ li{
             }
             max-width: 100%;
         }
+        .subscribe{
+            margin:10rem ;
+            width:100%;
+            border-radius: 16px;
+            background:var(--primary-o, #FA7436);
+
+            &__list{
+                display: flex;
+               
+                justify-content: center;
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+            &__list h1{
+                color: #FEFCFB;
+                font-size: 48px;
+                width: 50%;
+                text-align: center;
+            }
+            &__lists{
+                border-radius: 10px;
+                background: #FFF;
+                width:40%;
+                height:5%;
+                margin: 3rem;
+                
+            }
+        }
 //mobile
 @media(max-width:767px){
     

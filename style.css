@@ -463,6 +463,32 @@ li {
   padding-top: 1rem;
 }
 
+.subscribe {
+  margin: 10rem;
+  width: 100%;
+  border-radius: 16px;
+  background: var(--primary-o, #FA7436);
+}
+.subscribe__list {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.subscribe__list h1 {
+  color: #FEFCFB;
+  font-size: 48px;
+  width: 50%;
+  text-align: center;
+}
+.subscribe__lists {
+  border-radius: 10px;
+  background: #FFF;
+  width: 40%;
+  height: 5%;
+  margin: 3rem;
+}
+
 @media (max-width: 767px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap");
   .header {
