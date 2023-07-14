@@ -468,6 +468,9 @@ li {
   width: 100%;
   border-radius: 16px;
   background: var(--primary-o, #FA7436);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .subscribe__list {
   display: flex;
@@ -478,7 +481,7 @@ li {
 .subscribe__list h1 {
   color: #FEFCFB;
   font-size: 48px;
-  width: 50%;
+  width: 70%;
   text-align: center;
 }
 .subscribe__lists {
@@ -487,6 +490,21 @@ li {
   width: 40%;
   height: 5%;
   margin: 3rem;
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 20rem;
+}
+.subscribe__lists input {
+  background: transparent;
+  border: none;
+  padding-right: 10rem;
+}
+.subscribe__lists svg {
+  background: transparent;
+  border: none;
 }
 
 @media (max-width: 767px) {
